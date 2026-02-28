@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Faris Sara – Computer Science Graduate & Cybersecurity MSc Student. Portfolio and CV."/>
+  <title>Faris Sara | Computer Science Graduate</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">FS</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Faris Sara</h1>
+        <h2 class="hero-title">
+          <span class="typed" id="typed-text"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-summary">
+          First Class Computer Science graduate and NCSC-certified MSc Cybersecurity student at the University of the West of England. 
+          Passionate about building intelligent, secure systems — from AI-powered chatbots to critical care dashboards.
+        </p>
+        <div class="hero-badges">
+          <span class="badge"><i class="fa-solid fa-graduation-cap"></i> First Class BSc</span>
+          <span class="badge"><i class="fa-solid fa-shield-halved"></i> NCSC Award</span>
+          <span class="badge"><i class="fa-solid fa-location-dot"></i> Bristol, UK</span>
+        </div>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/farissara" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/faris-sara-bb9474200/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="mailto:farissara10@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="avatar-wrapper">
+          <div class="avatar-ring"></div>
+          <img src="assets/profile.jpg" alt="Faris Sara" class="avatar" onerror="this.style.display='none'; document.querySelector('.avatar-placeholder').style.display='flex'"/>
+          <div class="avatar-placeholder">
+            <span>FS</span>
+          </div>
+        </div>
+        <div class="floating-card card-1">
+          <i class="fa-solid fa-brain"></i>
+          <span>AI & ML</span>
+        </div>
+        <div class="floating-card card-2">
+          <i class="fa-solid fa-lock"></i>
+          <span>Cybersecurity</span>
+        </div>
+        <div class="floating-card card-3">
+          <i class="fa-solid fa-code"></i>
+          <span>Full Stack</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a <strong>First Class Computer Science graduate</strong> from the University of the West of England, currently pursuing an 
+            <strong>MSc in Cybersecurity</strong> with an expected Distinction — recognised with the prestigious 
+            <strong>NCSC (National Cyber Security Centre) Award</strong>.
+          </p>
+          <p>
+            My experience spans both industry and academia: I've interned at the 
+            <strong>London Stock Exchange Group</strong>, where I optimised backup systems to cut recovery time by 40%, 
+            and at <strong>Orange Group (Jordan Telecom)</strong>, where I strengthened cybersecurity defences for a 
+            national parliamentary election website serving 1,000+ officials.
+          </p>
+          <p>
+            I'm driven by the intersection of <strong>artificial intelligence, cybersecurity, and software engineering</strong> — 
+            building systems that are not only intelligent but also secure and reliable.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">1st</span>
+            <span class="stat-label">Class Honours</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">40%</span>
+            <span class="stat-label">Recovery Time Reduced</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">1K+</span>
+            <span class="stat-label">Election Officials Served</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">70%</span>
+            <span class="stat-label">User Engagement Boost</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>MSc Cybersecurity</h3>
+                <p class="institution">University of the West of England — Bristol, UK</p>
+              </div>
+              <span class="timeline-date">Sep 2025 – Sep 2026</span>
+            </div>
+            <div class="timeline-tags">
+              <span class="tag tag-green">Expected Distinction</span>
+              <span class="tag tag-blue">NCSC Award</span>
+            </div>
+            <p class="timeline-desc">
+              Postgraduate study specialising in advanced cybersecurity concepts, threat modelling, 
+              secure system design, and digital forensics. Awarded the NCSC (National Cyber Security Centre) 
+              academic recognition.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>BSc (Hons) Computer Science</h3>
+                <p class="institution">University of the West of England — Bristol, UK</p>
+              </div>
+              <span class="timeline-date">Sep 2022 – May 2025</span>
+            </div>
+            <div class="timeline-tags">
+              <span class="tag tag-gold">First Class Honours</span>
+            </div>
+            <p class="timeline-desc">
+              Graduated with First Class Honours. Capstone project: an AI-powered 
+              <strong>Car Sales Chatbot</strong> leveraging NLP, GPT-4, and KNN algorithms to deliver 
+              personalised vehicle recommendations.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-icon">
+            <i class="fa-solid fa-school"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>IGCSE & A Levels</h3>
+                <p class="institution">New English School — Amman, Jordan</p>
+              </div>
+              <span class="timeline-date">Sep 2009 – May 2022</span>
+            </div>
+            <div class="timeline-tags">
+              <span class="tag tag-purple">GPA: 82%</span>
+            </div>
+            <p class="timeline-desc">
+              Demonstrated leadership as <strong>CAS Leader</strong> and <strong>Vice President of the Student Council</strong>, 
+              developing strong communication and project management skills alongside academic achievement.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="experience-grid">
+
+        <div class="exp-card" data-aos="fade-up">
+          <div class="exp-header">
+            <div class="exp-logo lseg">LSEG</div>
+            <div class="exp-meta">
+              <h3>Software Engineering Intern</h3>
+              <p class="exp-company">London Stock Exchange Group</p>
+              <span class="exp-location"><i class="fa-solid fa-location-dot"></i> London, United Kingdom</span>
+            </div>
+            <span class="exp-date">Aug 2025 – Sep 2025</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              Collaborated across <strong>5 departments</strong> including DevOps and Development, driving cross-functional innovation and operational efficiency.
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              Optimised the backup system in partnership with the Development team, <strong>reducing recovery time by 40%</strong> and ensuring seamless integration with primary systems to minimise downtime.
+            </li>
+          </ul>
+          <div class="exp-tags">
+            <span>DevOps</span><span>System Reliability</span><span>Backup Optimisation</span><span>Cross-functional Collaboration</span>
+          </div>
+        </div>
+
+        <div class="exp-card" data-aos="fade-up">
+          <div class="exp-header">
+            <div class="exp-logo orange">OG</div>
+            <div class="exp-meta">
+              <h3>Cybersecurity & Development Intern</h3>
+              <p class="exp-company">Orange Group (Jordan Telecom)</p>
+              <span class="exp-location"><i class="fa-solid fa-location-dot"></i> Amman, Jordan</span>
+            </div>
+            <span class="exp-date">Aug 2024 – Aug 2024</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              Contributed to the development and maintenance of the <strong>Independent Election Commission's parliamentary election website</strong>, enabling real-time voter eligibility verification for 1,000+ officials.
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              Identified and remediated cybersecurity vulnerabilities within the <strong>Information Security and Risk Department</strong>, strengthening site defences and implementing robust protection measures.
+            </li>
+          </ul>
+          <div class="exp-tags">
+            <span>Cybersecurity</span><span>Web Development</span><span>Vulnerability Assessment</span><span>Election Systems</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured" data-aos="fade-up">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-car"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/farissara" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-badge">Final Year Project</div>
+          <h3>Car Sales Chatbot</h3>
+          <p>
+            AI-powered chatbot for a car sales platform, integrating <strong>NLP</strong>, a fine-tuned 
+            <strong>GPT-4 model</strong>, and a <strong>KNN algorithm</strong> to deliver personalised vehicle 
+            recommendations based on user preferences. Increased user engagement by 70%.
+          </p>
+          <div class="project-metrics">
+            <div class="metric">
+              <span class="metric-value">70%</span>
+              <span class="metric-label">Engagement Boost</span>
+            </div>
+          </div>
+          <div class="project-tech">
+            <span>Python</span><span>GPT-4</span><span>NLP</span><span>KNN</span><span>Machine Learning</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/farissara" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Critical Care Dashboard</h3>
+          <p>
+            AI-powered clinical dashboard built with <strong>Flask</strong> and <strong>JavaScript</strong>, 
+            enhancing patient care in Critical Care Units by 25%. Features data visualisation, 
+            CSV integration, and adaptive UI — boosting engagement by 30% and cutting vulnerabilities by 40%.
+          </p>
+          <div class="project-metrics">
+            <div class="metric">
+              <span class="metric-value">25%</span>
+              <span class="metric-label">Care Improvement</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value">40%</span>
+              <span class="metric-label">Vulnerabilities Cut</span>
+            </div>
+          </div>
+          <div class="project-tech">
+            <span>Flask</span><span>JavaScript</span><span>Machine Learning</span><span>Agile</span><span>Data Viz</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-container">
+
+        <div class="skill-category" data-aos="fade-up">
+          <h3><i class="fa-solid fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Kotlin</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up">
+          <h3><i class="fa-solid fa-brain"></i> AI & Machine Learning</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">NLP</span>
+            <span class="skill-tag">GPT-4 Fine-tuning</span>
+            <span class="skill-tag">KNN</span>
+            <span class="skill-tag">OOP</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up">
+          <h3><i class="fa-solid fa-server"></i> Infrastructure & Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag">IoT</span>
+            <span class="skill-tag">Git</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up">
+          <h3><i class="fa-solid fa-shield-halved"></i> Cybersecurity</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Vulnerability Assessment</span>
+            <span class="skill-tag">Threat Modelling</span>
+            <span class="skill-tag">Information Security</span>
+            <span class="skill-tag">Risk Management</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up">
+          <h3><i class="fa-solid fa-certificate"></i> Certifications</h3>
+          <div class="skill-tags">
+            <span class="skill-tag cert">Generative AI for Business Leaders</span>
+            <span class="skill-tag cert">AWS Essential Training for Developers</span>
+            <span class="skill-tag cert">100 Days of Code: Python Pro Bootcamp</span>
+            <span class="skill-tag cert">NCSC Academic Award</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up">
+          <h3><i class="fa-solid fa-language"></i> Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Arabic — Native</span>
+            <span class="skill-tag">English — Proficient</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-subtitle">
+        I'm currently open to new opportunities. Whether you have a question, a project, or just want to connect — feel free to reach out.
+      </p>
+      <div class="contact-grid">
+        <a href="mailto:farissara10@gmail.com" class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Email</h3>
+          <p>farissara10@gmail.com</p>
+        </a>
+        <a href="https://www.linkedin.com/in/faris-sara-bb9474200/" target="_blank" rel="noopener" class="contact-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <p>faris-sara-bb9474200</p>
+        </a>
+        <a href="https://github.com/farissara" target="_blank" rel="noopener" class="contact-card">
+          <i class="fa-brands fa-github"></i>
+          <h3>GitHub</h3>
+          <p>github.com/farissara</p>
+        </a>
+        <a href="tel:+447543568460" class="contact-card">
+          <i class="fa-solid fa-phone"></i>
+          <h3>Phone</h3>
+          <p>+44 7543 568460</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>Designed & built by <strong>Faris Sara</strong></p>
+      <p class="footer-sub">Bristol, United Kingdom · 2025</p>
+      <div class="footer-socials">
+        <a href="https://github.com/farissara" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/faris-sara-bb9474200/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:farissara10@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
