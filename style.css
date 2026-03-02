@@ -821,14 +821,20 @@ section:nth-child(even) {
 
 .exp-bullets li i {
   color: var(--green);
-  margin-top: 0.25rem;
+  margin-top: 0.35rem;
   flex-shrink: 0;
   font-size: 0.85rem;
 }
 
+.exp-bullets li span {
+  display: block;
+  flex: 1;
+}
+
 .exp-bullets strong {
   color: var(--text);
-  font-weight: 600;
+  white-space: nowrap;
+  font-weight: 700;
 }
 
 .exp-tags {
