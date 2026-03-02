@@ -6,7 +6,8 @@ var titles = [
   "Cybersecurity MSc Student",
   "AI & Machine Learning Enthusiast",
   "Software Engineer",
-  "Full Stack Developer"
+  "Full Stack Developer",
+  "Open to Work"
 ];
 
 var titleIndex = 0;
