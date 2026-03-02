@@ -4,6 +4,7 @@
 var titles = [
   "Computer Science Graduate",
   "Cybersecurity MSc Student",
+  "British Citizen",
   "AI & Machine Learning Enthusiast",
   "Software Engineer",
   "Full Stack Developer",
