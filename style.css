@@ -716,6 +716,23 @@ section:nth-child(even) {
   gap: 1.5rem;
 }
 
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  z-index: 2000;
+}
+
+.card,
+.exp-card,
+.project-card,
+.skill-category {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .exp-card {
   background: var(--bg-card);
   border: 1px solid var(--border);

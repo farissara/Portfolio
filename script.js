@@ -316,3 +316,9 @@ document.addEventListener("DOMContentLoaded", function () {
   initConsole();
   setTimeout(typeEffect, 600);
 });
+window.addEventListener("scroll", function () {
+  var scrollTop = window.scrollY;
+  var docHeight = document.body.scrollHeight - window.innerHeight;
+  var progress = (scrollTop / docHeight) * 100;
+  document.getElementById("progress-bar").style.width = progress + "%";
+});
